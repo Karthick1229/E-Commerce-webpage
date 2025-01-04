@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce</title>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <!-- My Css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- NavBar -->
+    <nav class="navbar">
+        <h1 class="navhead">Galaxy<br>
+            <hr>Fashion Shop
+        </h1>
+
+
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact Us.html">Contact us</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- Side Navbar -->
+    <div class="side-navbar">
+        <p class="side-navbar-align" style="text-align: right;" onclick="closeNavbar()">
+            <button class="fa-solid fa-xmark"></button>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link"><a href="index.html">Home</a></p>
+            <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-link"><a href="contact Us.html">Contact us</a></p>
+        </div>
+    </div>
+
+    <!-- Product -->
+    
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <button class="fa-solid fa-magnifying-glass"></button>
+
+        </form>
+
+        <div class="products" id="product">
+
+            <div class="products-box">
+
+                <img src="Collection Img/artem-beliaikin-UdQt3FT6rxM-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Premium Shirts</p>
+
+            </div>
+            <div class="products-box">
+
+                <img src="Collection Img/carlos-torres-fouVDmGXoPI-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Printed Shirts</p>
+            </div>
+            <div class="products-box">
+
+                <img src="Collection Img/engin-akyurt-jaZoffxg1yc-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Womens Casual Wears</p>
+
+            </div>
+            <div class="products-box">
+
+                <img src="Collection Img/ian-dooley-m4XquYOTb50-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Womens T-Shirts</p>
+            </div>
+            <div class="products-box">
+
+                <img src="Collection Img/juliana-mayo-QZjdwUK_qvY-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Cotton Clothes</p>
+
+            </div>
+            <div class="products-box">
+
+                <img src="Collection Img/malvestida-u79wy47kvVs-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Girls Accesories</p>
+            </div>
+            <div class="products-box">
+
+                <img src="Collection Img/markus-winkler-1lmPFQ7ZXeM-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Womens Cotton Clothes</p>
+
+            </div>
+            <div class="products-box">
+
+                <img src="Collection Img/nastya-dulhiier-e6pxhloayqg-unsplash.jpg" style="height: 200px; width: 200px;"alt="">
+                <p>Lipsticks</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h1 class="heading-text">Galaxy
+                    <hr>Fashion Store
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non soluta officia
+                    adipisci explicabo ullam, velit qui atque dolorem nulla architecto?
+                </p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                </div>
+            </div>
+        </div>
+        <div>
+            @ 2024.Galaxy Fashion Store.com
+        </div>
+    </div>
+    <script src="collection.js"></script>
+
+</body>
+
+</html>
